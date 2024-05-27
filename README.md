@@ -1,8 +1,8 @@
 ## Screenshots
 ![chat_groq_1](https://github.com/Parthiban-R-3997/Smart-ATS-System-Using-Google-Gemini/assets/26496805/6125958f-93ac-4399-aa86-55a9f2613801)
 ![chat_groq_2](https://github.com/Parthiban-R-3997/Smart-ATS-System-Using-Google-Gemini/assets/26496805/d46cb54c-c7ce-43c2-9ad1-6530ce148366)
-![chat_groq_3](https://github.com/Parthiban-R-3997/Smart-ATS-System-Using-Google-Gemini/assets/26496805/4e1e5c38-8577-4746-a437-2be3dcefc95f)
-![chat_groq_4](https://github.com/Parthiban-R-3997/Smart-ATS-System-Using-Google-Gemini/assets/26496805/263846f2-d0ef-4191-970d-a2816419a4d2)
+![chat_groq_5](https://github.com/Parthiban-R-3997/Smart-ATS-System-Using-Google-Gemini/assets/26496805/c0fc5328-cad2-4e13-9b61-5323fb653305)
+![chat_groq_6](https://github.com/Parthiban-R-3997/Smart-ATS-System-Using-Google-Gemini/assets/26496805/574bd55a-0726-48b3-aff7-e6d9ddfd874c)
 
 # Chat Groq Document Q&A
 
