@@ -58,24 +58,24 @@ This application integrates with Langsmith, a platform for monitoring and managi
 
 2. Install the required dependencies:
 
-  ```bash
+
   pip install -r requirements.txt
 
 3. Setup Your API Keys
 
-  ```bash
+
 - Obtain a Groq API key from the [Groq Console](https://console.groq.com/keys).
 - Obtain a Google API key from the [Google AI Studio](https://aistudio.google.com/app/apikey).
 
 
 4. Run the Streamlit App
 
-```bash
+
 streamlit run app.py
 
 
 5. Run the Streamlit app:
-```bash
+
 streamlit run app.py
 
 Open the app in your web browser and follow the instructions to upload PDF files, enter your API keys, select a Groq model, and start asking questions!
