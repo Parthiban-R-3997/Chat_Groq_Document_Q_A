@@ -16,8 +16,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-# Langmith tracking
-os.environ["LANGCHAIN_TRACING_V2"] = "true"
+
 
 st.set_page_config(page_title="Chat with PDFs", page_icon=":books:")
 
@@ -83,6 +82,9 @@ with st.sidebar:
     langsmith_api_key = st.text_input("Enter your Langsmith API Key", type="password", help="Get your API key from [Langsmith Console](https://smith.langchain.com/o/2a79134f-7562-5c92-a437-96b080547a1e/settings)")
     selected_model = st.selectbox("Select any Groq Model", model_options)
     os.environ["GOOGLE_API_KEY"]=str(google_api_key)
+    os.environ["LANGCHAIN_API_KEY"]=str(langsmith_api_key)
+    # Langmith tracking
+    os.environ["LANGCHAIN_TRACING_V2"] = "true"
     st.markdown("Upload your PDF files:")
     uploaded_files = st.file_uploader("Choose PDF files", accept_multiple_files=True, type="pdf")
 
