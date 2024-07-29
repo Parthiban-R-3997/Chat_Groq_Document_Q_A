@@ -92,8 +92,7 @@ with st.sidebar:
 
 
     # Custom prompt text areas
-    st.markdown("Enter a custom prompt template (optional):")
-    custom_prompt_template = st.text_area("Custom Prompt Template", placeholder="Enter your custom prompt here...")
+    custom_prompt_template = st.text_area("Custom Prompt Template", placeholder="Enter your custom prompt here to set the tone of the message...(Optional)")
 
     if st.button("Start Document Embedding"):
         if uploaded_files:
