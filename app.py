@@ -81,7 +81,7 @@ with st.sidebar:
     st.markdown("Enter your API keys below:")
     groq_api_key = st.text_input("Enter your GROQ API Key", type="password", help="Get your API key from [GROQ Console](https://console.groq.com/keys)")
     google_api_key = st.text_input("Enter your Google API Key", type="password", help="Get your API key from [Google AI Studio](https://aistudio.google.com/app/apikey)")
-    langsmith_api_key = st.text_input("Enter your Langsmith API Key", type="password", help="Get your API key from [Langsmith Console](https://smith.langchain.com/o/2a79134f-7562-5c92-a437-96b080547a1e/settings)")
+    langsmith_api_key = st.text_input("Enter your Langsmith API Key", type="password",placeholder="For Tracing the flows (Optional!)", help="Get your API key from [Langsmith Console](https://smith.langchain.com/o/2a79134f-7562-5c92-a437-96b080547a1e/settings)")
     selected_model = st.selectbox("Select any Groq Model", model_options)
     os.environ["GOOGLE_API_KEY"]=str(google_api_key)
     os.environ["LANGCHAIN_API_KEY"]=str(langsmith_api_key)
